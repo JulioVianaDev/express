@@ -14,7 +14,7 @@ app.use(cors());
 // permitindo comunicação com jsons
 app.use(express.json());
 app.get("/", (req, res) => {
-  const response = {message: "bem vindo"};
+  const response = {message: "bem vindo updated"};
   res.json(response);
 });
 // fazendo o app rodar na porta escolhida e dizendo aonde ele está rodando
