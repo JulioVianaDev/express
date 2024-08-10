@@ -24,7 +24,7 @@ app.get("/api", (req, res) => {
   res.json(response);
 });
 app.get("/", (req, res) => {
-  const response = {message: "bem vindo"};
+  const response = {message: "bem vindo ao sistema"};
   res.json(response);
 });
 // fazendo o app rodar na porta escolhida e dizendo aonde ele está rodando
